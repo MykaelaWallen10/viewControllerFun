@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB52C8632AC7180B0002C4CE /* ViewControllerWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8622AC7180B0002C4CE /* ViewControllerWhite.swift */; };
 		BB5F948F2AC5C080006E6D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F948E2AC5C080006E6D70 /* AppDelegate.swift */; };
 		BB5F94912AC5C080006E6D70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F94902AC5C080006E6D70 /* SceneDelegate.swift */; };
 		BB5F94932AC5C080006E6D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F94922AC5C080006E6D70 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 		BB5F94A92AC5C082006E6D70 /* viewControllerFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F94A82AC5C082006E6D70 /* viewControllerFunTests.swift */; };
 		BB5F94B32AC5C082006E6D70 /* viewControllerFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F94B22AC5C082006E6D70 /* viewControllerFunUITests.swift */; };
 		BB5F94B52AC5C082006E6D70 /* viewControllerFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F94B42AC5C082006E6D70 /* viewControllerFunUITestsLaunchTests.swift */; };
+		BB5F94C22AC5C355006E6D70 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F94C12AC5C355006E6D70 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB52C8622AC7180B0002C4CE /* ViewControllerWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWhite.swift; sourceTree = "<group>"; };
 		BB5F948B2AC5C080006E6D70 /* viewControllerFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewControllerFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5F948E2AC5C080006E6D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB5F94902AC5C080006E6D70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		BB5F94AE2AC5C082006E6D70 /* viewControllerFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewControllerFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5F94B22AC5C082006E6D70 /* viewControllerFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerFunUITests.swift; sourceTree = "<group>"; };
 		BB5F94B42AC5C082006E6D70 /* viewControllerFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB5F94C12AC5C355006E6D70 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				BB5F948E2AC5C080006E6D70 /* AppDelegate.swift */,
 				BB5F94902AC5C080006E6D70 /* SceneDelegate.swift */,
 				BB5F94922AC5C080006E6D70 /* ViewController.swift */,
+				BB52C8622AC7180B0002C4CE /* ViewControllerWhite.swift */,
+				BB5F94C12AC5C355006E6D70 /* ViewController2.swift */,
 				BB5F94942AC5C080006E6D70 /* Main.storyboard */,
 				BB5F949A2AC5C082006E6D70 /* Assets.xcassets */,
 				BB5F949C2AC5C082006E6D70 /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5F94C22AC5C355006E6D70 /* ViewController2.swift in Sources */,
 				BB5F94932AC5C080006E6D70 /* ViewController.swift in Sources */,
+				BB52C8632AC7180B0002C4CE /* ViewControllerWhite.swift in Sources */,
 				BB5F948F2AC5C080006E6D70 /* AppDelegate.swift in Sources */,
 				BB5F94992AC5C080006E6D70 /* viewControllerFun.xcdatamodeld in Sources */,
 				BB5F94912AC5C080006E6D70 /* SceneDelegate.swift in Sources */,
